@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T16:22:53 IST" name="Default suite" finished-at="2026-04-29T16:22:58 IST" duration-ms="5654">
+    <groups>
+      <group name="e3e">
+        <method signature="LoginTest.loginTest()[pri:0, instance:com.ui.tests.LoginTest@76505305]" name="loginTest" class="com.ui.tests.LoginTest"/>
+      </group> <!-- e3e -->
+      <group name="sanity">
+        <method signature="LoginTest.loginTest()[pri:0, instance:com.ui.tests.LoginTest@76505305]" name="loginTest" class="com.ui.tests.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2026-04-29T16:22:53 IST" name="Default test" finished-at="2026-04-29T16:22:58 IST" duration-ms="5654">
+      <class name="com.ui.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@76505305]" started-at="2026-04-29T16:22:53 IST" name="setup" description="load the HomePage of the website" finished-at="2026-04-29T16:22:57 IST" duration-ms="3855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.ui.tests.LoginTest@76505305]" started-at="2026-04-29T16:22:57 IST" name="loginTest" description="Verifies with the valid user is able to login into the application" finished-at="2026-04-29T16:22:58 IST" duration-ms="1718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.ui.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
