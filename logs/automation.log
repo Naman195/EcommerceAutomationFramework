@@ -1,0 +1,65 @@
+2026-05-08 02:17::18 [main] INFO com.ui.listeners.TestListener::onStart::70 Test Suite Started 
+2026-05-08 02:17::22 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::28 loginExcelTest 
+2026-05-08 02:17::22 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:17::22 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:17::23 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-08 02:17::23 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:17::23 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:17::26 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginCSVTest 
+2026-05-08 02:17::26 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:17::26 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:17::35 [TestNG-test-UI Automation test-3] ERROR com.ui.listeners.TestListener::onTestFailure::46 loginTest FAILED 
+2026-05-08 02:17::35 [TestNG-test-UI Automation test-3] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for visibility of element found by By.xpath: //a[@title='View my customer account']/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54391}, goog:processID: 19948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54391/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff74abdadaf1a420e38b77af4c7b9a3c 
+2026-05-08 02:17::35 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-08 02:17::35 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-2] WARN com.ui.listeners.TestListener::onTestSkipped::63 loginExcelTest SKIPPED 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::46 loginCSVTest FAILED 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for visibility of element found by By.xpath: //a[@title='View my customer account']/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54390}, goog:processID: 6704, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54390/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c75ce0d83cc8e820405c328f1974638e 
+2026-05-08 02:17::37 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-08 02:17::38 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-08 02:17::41 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginCSVTest 
+2026-05-08 02:17::41 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:17::41 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:17::44 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::28 loginExcelTest 
+2026-05-08 02:17::44 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:17::44 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:17::47 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginCSVTest PASSED 
+2026-05-08 02:17::56 [TestNG-test-UI Automation test-2] WARN com.ui.listeners.TestListener::onTestSkipped::63 loginExcelTest SKIPPED 
+2026-05-08 02:18::07 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::28 loginExcelTest 
+2026-05-08 02:18::07 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:18::07 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:18::13 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginTest PASSED 
+2026-05-08 02:18::19 [TestNG-test-UI Automation test-2] WARN com.ui.listeners.TestListener::onTestSkipped::63 loginExcelTest SKIPPED 
+2026-05-08 02:18::27 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::28 loginExcelTest 
+2026-05-08 02:18::27 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:18::27 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:18::39 [TestNG-test-UI Automation test-2] ERROR com.ui.listeners.TestListener::onTestFailure::46 loginExcelTest FAILED 
+2026-05-08 02:18::39 [TestNG-test-UI Automation test-2] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for visibility of element found by By.xpath: //a[@title='View my customer account']/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49977}, goog:processID: 2140, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49977/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b9c6ba306b512e3ff66ffe789cda9979 
+2026-05-08 02:18::39 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-08 02:18::39 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-08 02:18::44 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::28 loginExcelTest 
+2026-05-08 02:18::44 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-08 02:18::44 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-08 02:18::45 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginExcelTest PASSED 
+2026-05-08 02:18::45 [main] INFO com.ui.listeners.TestListener::onFinish::81 Test Suite Completed 

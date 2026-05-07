@@ -1,22 +1,22 @@
 package com.ui.tests;
 
-import static com.constants.Browser.*;
+import static com.constants.Browser.CHROME;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.ui.pages.HomePage;
 import com.ui.pojo.User;
 
-public class LoginTest {
-	HomePage hompePage;
+
+@Listeners({com.ui.listeners.TestListener.class})
+public class LoginTest extends TestBase  {
 	
-	@BeforeMethod(description = "load the HomePage of the website")
-	public void setup() {
-		 hompePage = new  HomePage(CHROME);
-	}
+	
+	
+	
 	
 	
 	
@@ -42,6 +42,24 @@ public class LoginTest {
 		
 		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
 		Assert.assertEquals(userName, "Naman Arora");
+		
+		}
+		
+	
+		@Test(description = "Verifies with the valid user is able to login into the application", groups = {"e3e", "sanity"}, 
+				dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestExcelDataProvider",
+				retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class
+				)
+		public void loginExcelTest(User user) {
+			
+		
+		
+	
+		
+		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
+		Assert.assertEquals(userName, "Naman Arora");
+		
+		
 		
 		}
 		

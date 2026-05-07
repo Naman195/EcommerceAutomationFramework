@@ -11,7 +11,7 @@ import com.ui.pojo.Environment;
 
 public class JSONUtility {
 	
-	public static String readJson(Env env)  {
+	public static Environment readJson(Env env)  {
 		
 		Gson gson = new Gson();
 		File jsonFile = new File(System.getProperty("user.dir") + "\\config\\config.json");
@@ -25,7 +25,7 @@ public class JSONUtility {
 		Config config = gson.fromJson(fileReader, Config.class);
 		
 		Environment environment = config.getEnvironments().get("QA");
-		return environment.getUrl();
+		return environment;
 		
 	}
 
