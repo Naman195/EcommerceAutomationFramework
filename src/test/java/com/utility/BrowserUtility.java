@@ -12,7 +12,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
 import com.constants.Browser;
 
@@ -40,6 +42,39 @@ public abstract  class BrowserUtility {
 			driver.set(new ChromeDriver());
 		}else if (browserName == Browser.EDGE) {
 			driver.set(new EdgeDriver());
+		}else {
+			System.err.print("Invalid Browser name, please select chrome or edge");
+		}
+	}
+	
+	public BrowserUtility(Browser browserName, boolean isHeadless) {
+		if(browserName == Browser.CHROME) {
+			if (isHeadless) {
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless=old"); // headless
+				options.addArguments("--window-size=1920,1080");
+				driver.set(new ChromeDriver(options));
+				
+
+			} else {
+				driver.set(new ChromeDriver());
+				
+
+			}
+		}else if (browserName == Browser.EDGE) {
+			if (isHeadless) {
+
+				EdgeOptions options = new EdgeOptions();
+				options.addArguments("--headless=old");
+				options.addArguments("disable-gpu");
+				driver.set(new EdgeDriver(options));
+
+			}
+
+			else {
+				driver.set(new EdgeDriver());
+
+			}
 		}else {
 			System.err.print("Invalid Browser name, please select chrome or edge");
 		}
@@ -93,6 +128,10 @@ public abstract  class BrowserUtility {
 		
 		return path;
 		
+	}
+	
+	public void quit() {
+		driver.get().quit();
 	}
 
 }

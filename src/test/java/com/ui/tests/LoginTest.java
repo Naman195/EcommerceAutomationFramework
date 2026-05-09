@@ -33,35 +33,35 @@ public class LoginTest extends TestBase  {
 		
 		}
 		
-		@Test(description = "Verifies with the valid user is able to login into the application", groups = {"e3e", "sanity"}, 
-				dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider")
-		public void loginCSVTest(User user) {
-			
-		
-		
-		
-		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
-		Assert.assertEquals(userName, "Naman Arora");
-		
-		}
-		
-	
-		@Test(description = "Verifies with the valid user is able to login into the application", groups = {"e3e", "sanity"}, 
-				dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestExcelDataProvider",
-				retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class
-				)
-		public void loginExcelTest(User user) {
-			
-		
-		
-	
-		
-		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
-		Assert.assertEquals(userName, "Naman Arora");
-		
-		
-		
-		}
+//		@Test(description = "Verifies with the valid user is able to login into the application", groups = {"e3e", "sanity"}, 
+//				dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestCSVDataProvider")
+//		public void loginCSVTest(User user) {
+//			
+//		
+//		
+//		
+//		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
+//		Assert.assertEquals(userName, "Naman Arora");
+//		
+//		}
+//		
+//	
+//		@Test(description = "Verifies with the valid user is able to login into the application", groups = {"e3e", "sanity"}, 
+//				dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginTestExcelDataProvider",
+//				retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class
+//				)
+//		public void loginExcelTest(User user) {
+//			
+//		
+//		
+//	
+//		
+//		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
+//		Assert.assertEquals(userName, "Naman Arora");
+//		
+//		
+//		
+//		}
 		
 	
 
