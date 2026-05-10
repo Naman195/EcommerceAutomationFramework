@@ -1,19 +1,19 @@
-2026-05-09 23:25::02 [main] INFO com.ui.listeners.TestListener::onStart::70 Test Suite Started 
-2026-05-09 23:25::49 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
-2026-05-09 23:25::49 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
-2026-05-09 23:25::49 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
-2026-05-09 23:26::02 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::46 loginTest FAILED 
-2026-05-09 23:26::02 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for visibility of element found by By.xpath: //a[@title='View my customer account']/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}.
+2026-05-10 10:36::15 [main] INFO com.ui.listeners.TestListener::onStart::70 Test Suite Started 
+2026-05-10 10:36::21 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-10 10:36::21 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-10 10:36::21 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-10 10:36::32 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::46 loginTest FAILED 
+2026-05-10 10:36::32 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for visibility of element found by By.xpath: //a[@title='View my customer account']/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}.
 (tried for 10 seconds with 500 milliseconds interval)
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.138 (022a5605792..., userDataDir: C:\Program Files (x86)\scop...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, goog:processID: 4608, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: wss://cdp-mumbai.lambdatest..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2b42abfe61ae5de83fc5409223ae0fc 
-2026-05-09 23:26::02 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
-2026-05-09 23:26::02 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
-2026-05-09 23:26::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
-2026-05-09 23:26::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
-2026-05-09 23:26::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
-2026-05-09 23:26::13 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginTest PASSED 
-2026-05-09 23:26::14 [main] INFO com.ui.listeners.TestListener::onFinish::81 Test Suite Completed 
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56331}, goog:processID: 6808, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56331/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca7a54eee7d6d2b2af685433a1991ef6 
+2026-05-10 10:36::32 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-10 10:36::33 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-10 10:36::37 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-10 10:36::37 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-10 10:36::37 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-10 10:36::39 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginTest PASSED 
+2026-05-10 10:36::39 [main] INFO com.ui.listeners.TestListener::onFinish::81 Test Suite Completed 
