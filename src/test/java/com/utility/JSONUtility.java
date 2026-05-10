@@ -24,7 +24,7 @@ public class JSONUtility {
 		}
 		Config config = gson.fromJson(fileReader, Config.class);
 		
-		Environment environment = config.getEnvironments().get("QA");
+		Environment environment = config.getEnvironments().get("QA"); // change]
 		return environment;
 		
 	}
