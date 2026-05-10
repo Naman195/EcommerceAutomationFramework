@@ -28,7 +28,7 @@ public class LoginTest extends TestBase  {
 		
 		
 		
-		String userName = hompePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
+		String userName = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
 		Assert.assertEquals(userName, "Naman Arora"); // Naman Arora Test PAss
 		
 		}

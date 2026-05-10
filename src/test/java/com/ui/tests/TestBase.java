@@ -18,28 +18,30 @@ import com.utility.LambdaTestUtility;
 
 public class TestBase {
 	
-	protected HomePage hompePage;
+	protected HomePage homePage;
 	private boolean isLambdaTest = true;
 	
 
 	@BeforeMethod(description = "load the HomePage of the website")
 	@Parameters({ "browser", "isLambdaTest", "isHeadless" })
-	public void setup(@Optional("chrome") String browser, @Optional("false") boolean isLambdaTest,
+	public void setup(
+			@Optional("chrome") String browser, 
+			@Optional("false") boolean isLambdaTest,
 			@Optional("false") boolean isHeadless, ITestResult result) {
 		this.isLambdaTest = isLambdaTest;
 		WebDriver lambdaDriver;
 		if(isLambdaTest) {
 			lambdaDriver = LambdaTestUtility.initializeTestLambdaSession("chrome", result.getMethod().getMethodName());
-			hompePage = new  HomePage(lambdaDriver);
+			homePage = new  HomePage(lambdaDriver);
 			
 		}else {
 //			hompePage = new  HomePage(Browser.CHROME, isHeadless);
-			hompePage = new HomePage(Browser.valueOf("chrome".toUpperCase()), isHeadless);
+			homePage = new HomePage(Browser.valueOf("chrome".toUpperCase()), isHeadless);
 		}
 	}
 	
 	public BrowserUtility getInstance() {
-		return hompePage;
+		return homePage;
 	}
 	
 	@AfterMethod(description = "Tear Down the browser")
@@ -48,7 +50,7 @@ public class TestBase {
 		if (isLambdaTest) {
 			LambdaTestUtility.quitSession(); // quit or close the browsersession on LT
 		} else {
-			hompePage.quit(); // local
+			homePage.quit(); // local
 		}
 	}
 }
