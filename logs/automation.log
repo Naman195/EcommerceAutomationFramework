@@ -1,16 +1,125 @@
-2026-05-11 01:52::31 [main] INFO com.ui.pages.HomePage::<init>::93 Launching Browser for CHROME 
-2026-05-11 01:52::33 [main] INFO com.ui.pages.HomePage::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::clickOn::162 Element Found and now performing Click 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::enterText::193 Element Found and now enter text gogab23467@soppat.com 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::enterText::193 Element Found and now enter text password 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
-2026-05-11 01:52::37 [main] INFO com.ui.pages.HomePage::clickOn::162 Element Found and now performing Click 
-2026-05-11 01:52::38 [main] INFO com.ui.pages.HomePage::enterText::188 Finding Element with the locatorBy.id: search_query_top 
-2026-05-11 01:52::38 [main] INFO com.ui.pages.HomePage::enterText::193 Element Found and now enter text Printed Summer dress 
-2026-05-11 01:52::38 [main] INFO com.ui.pages.HomePage::enterSpecialKey::229 Finding Element with the locatorBy.id: search_query_top 
-2026-05-11 01:52::38 [main] INFO com.ui.pages.HomePage::enterSpecialKey::233 Element Found and now enter special Key  
-2026-05-11 01:52::38 [main] INFO com.ui.pages.HomePage::getAllVisibleText::239 Finding All Elements with the locatorBy.xpath: //h5[@itemprop="name"]/a 
-2026-05-11 01:52::38 [main] INFO com.ui.pages.HomePage::getAllVisibleText::242 Elements Found and now printing the List of Elements 
+2026-05-11 01:56::55 [main] INFO com.ui.listeners.TestListener::onStart::70 Test Suite Started 
+2026-05-11 01:56::55 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::<init>::93 Launching Browser for CHROME 
+2026-05-11 01:56::55 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::<init>::93 Launching Browser for CHROME 
+2026-05-11 01:56::55 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::<init>::93 Launching Browser for CHROME 
+2026-05-11 01:56::55 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::<init>::93 Launching Browser for CHROME 
+2026-05-11 01:56::55 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::<init>::93 Launching Browser for CHROME 
+2026-05-11 01:56::59 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-11 01:56::59 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-11 01:56::59 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-11 01:56::59 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-11 01:56::59 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-11 01:57::00 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
+2026-05-11 01:57::04 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
+2026-05-11 01:57::04 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::04 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
+2026-05-11 01:57::05 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-11 01:57::05 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::29 Verify if the proper error message is shown for the user when they enter invalid credentials  
+2026-05-11 01:57::05 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestStart::30 [smoke, e2e, sanity] 
+2026-05-11 01:57::05 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
+2026-05-11 01:57::06 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-11 01:57::06 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-11 01:57::06 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-11 01:57::06 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
+2026-05-11 01:57::06 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::07 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::07 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::07 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::07 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
+2026-05-11 01:57::07 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text gogab23467@soppat.com 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text gogab2hhhh3467@soppat.com 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text gogab23467@soppat.com 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text jatinvsharma@gmail.com 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text gogab23467@soppat.com 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
+2026-05-11 01:57::08 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text Qwerty1234! 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text password 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text password 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2026-05-11 01:57::09 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text password 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text password 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2026-05-11 01:57::11 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2026-05-11 01:57::12 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::12 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::12 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::28 addNewAddress 
+2026-05-11 01:57::12 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::29  
+2026-05-11 01:57::12 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestStart::30 [] 
+2026-05-11 01:57::12 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //a[@title="Add my first address"] 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.id: search_query_top 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text Printed Summer dress 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::getVisibleText::264 Finding Element with the locatorBy.xpath: //div[contains(@class,"alert-danger")]/ol/li 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::onTestStart::28 verifyproductSearchTest 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::onTestStart::29 Verify if the logged in user is able to search for a product and correct products search result are displayed 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::onTestStart::30 [smoke, e2e, sanity] 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::getVisibleText::267 Element Found and now returning the visibile Authentication failed. 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-2] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginTest PASSED 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterSpecialKey::229 Finding Element with the locatorBy.id: search_query_top 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::enterSpecialKey::233 Element Found and now enter special Key  
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::onTestStart::28 checkoutTest 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::onTestStart::29 Verify if the logged in User is able to buy a dress 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::onTestStart::30 [smoke, e2e, sanity] 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::getAllElements::254 Finding All Elements with the locatorBy.xpath: //h5[@itemprop="name"]/a 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::getAllElements::257 Elements Found and now printing the List of Elements 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] ERROR com.ui.listeners.TestListener::onTestFailure::46 checkoutTest FAILED 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] ERROR com.ui.listeners.TestListener::onTestFailure::47 Index 0 out of bounds for length 0 
+2026-05-11 01:57::13 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.id: search_query_top 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text Printed Summer dress 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterSpecialKey::229 Finding Element with the locatorBy.id: search_query_top 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::enterSpecialKey::233 Element Found and now enter special Key  
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::getAllVisibleText::239 Finding All Elements with the locatorBy.xpath: //h5[@itemprop="name"]/a 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::getAllVisibleText::242 Elements Found and now printing the List of Elements 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] ERROR com.ui.listeners.TestListener::onTestFailure::46 verifyproductSearchTest FAILED 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] ERROR com.ui.listeners.TestListener::onTestFailure::47 expected [true] but found [false] 
+2026-05-11 01:57::14 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-11 01:57::16 [TestNG-test-UI Automation test-4] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-11 01:57::21 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::46 loginTest FAILED 
+2026-05-11 01:57::21 [TestNG-test-UI Automation test-1] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for visibility of element found by By.xpath: //a[@title='View my customer account']/span, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62265}, goog:processID: 29700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62265/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c0a85741371a8ea9101adb2248b3f4d 
+2026-05-11 01:57::21 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-11 01:57::22 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-11 01:57::22 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::<init>::93 Launching Browser for CHROME 
+2026-05-11 01:57::23 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::goToWebsite::146 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-05-11 01:57::24 [TestNG-test-UI Automation test-5] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-11 01:57::42 [TestNG-test-UI Automation test-3] ERROR com.ui.listeners.TestListener::onTestFailure::46 addNewAddress FAILED 
+2026-05-11 01:57::42 [TestNG-test-UI Automation test-3] ERROR com.ui.listeners.TestListener::onTestFailure::47 Expected condition failed: waiting for element found by By.xpath: //a[@title="Add my first address"] to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="Add my first address"]"}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.138, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62267}, goog:processID: 14304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62267/devtoo..., se:cdpVersion: 147.0.7727.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b42944f812e809add7c4b520a11d6d7a 
+2026-05-11 01:57::42 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestFailure::53 Capturing screenshot for the failed tests 
+2026-05-11 01:57::42 [TestNG-test-UI Automation test-3] INFO com.ui.listeners.TestListener::onTestFailure::55 Attaching screenshot for the failed tests to HTML report 
+2026-05-11 01:57::44 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTest 
+2026-05-11 01:57::44 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with the valid user is able to login into the application 
+2026-05-11 01:57::44 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e3e, sanity] 
+2026-05-11 01:57::44 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //div[@class='header_user_info']/a 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='email'] 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text gogab23467@soppat.com 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::188 Finding Element with the locatorBy.xpath: //input[@id='passwd'] 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::enterText::193 Element Found and now enter text password 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::157 Finding Element with the locatorBy.xpath: //button[@id='SubmitLogin'] 
+2026-05-11 01:57::45 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::clickOn::162 Element Found and now performing Click 
+2026-05-11 01:57::46 [TestNG-test-UI Automation test-1] INFO com.ui.listeners.TestListener::onTestSuccess::38 loginTest PASSED 
+2026-05-11 01:57::46 [main] INFO com.ui.listeners.TestListener::onFinish::81 Test Suite Completed 
